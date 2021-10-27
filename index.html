@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	ZOOP THE WHEEL
+	</title>
+</head>
+
+<style>
+
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin:0;
+  }
+  
+ .option>div{width:1220px;
+			height:100px;
+			margin:10px;
+			margin-left:120px;
+			
+			}
+.option{display:flex;
+		}
+ 
+  
+</style>
+
+
+<body>
+
+
+<!/* slide show start */>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+    <img src="Black.png" style="width:1240px;height:550px;">
+    </div>
+
+    <div class="mySlides fade">
+    <img src="SLIDE2.png" style="width:1240px;height:550px;">
+    </div>
+
+    <div class="mySlides fade">
+    <img src="SLIDE3.png" style="width:1240px;height:550px;">
+    </div>
+ 
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<!/*slide show end */>
+
+<div>
+<img src="show.png" style="width:1250px;height:550px">
+</div>
+
+<div class="option">
+	<div>
+	<a href="hatchback.html"><img src="HATCHBACK.png" style="width:120px;height:120px"></a>
+	</div>
+	<div>
+	<a href="sedan.html"><img src="SEDAN.png" style="width:120px;height:120px"></a>
+	</div>
+	<div>
+	<a href="suv.html"><img src="SUV.png" style="width:120px;height:120px"></a>
+	</div>
+	
+
+</div>
+
+<div>
+<p>foter<p>
+
+/* script of slider */
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++)
+ {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) 
+      {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) 
+  {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+/* script of slider */
+
+</body>
+</html>
