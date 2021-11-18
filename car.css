@@ -1,3 +1,22 @@
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin:0;
+  }
+  
+ .option>div{width:1220px;
+			height:100%;
+			margin:10px;
+			margin-left:120px;
+			}
+
+
+
+
+
 .heading{height:70px;text-align: center;font-color:white;background-image: linear-gradient(#48546B,#485461);border-bottom:3px solid #8693AB;border-left:3px solid black ;border-right:3px solid black; margin-bottom: 5px;margin-top:5px;padding-top:5px;;display:flex;overflow: hidden;width:100%;}
 .main{border:2px solid;width:100%;height:100%;display:flex;overflow: hidden;}
 .fist{border:2px solid white;width:auto;height:auto;float:left;}
