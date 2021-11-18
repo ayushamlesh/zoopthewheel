@@ -32,6 +32,6 @@
 .fist{border:2px solid white;width:auto;height:auto;float:left;}
 .second{border:2px solid green;float:right;margin:10px;width:60%;color:Black;}
 .image{width:100%;height:auto}
-.footer{text-align:center;background-image: linear-gradient(#8693AB,#485461);color:white;width:1240px;}
+.footer{text-align:center;background-image: linear-gradient(#8693AB,#485461);color:white;}
 h4{font-size:26px;}
 h3{font-family: Georgia, serif;}
