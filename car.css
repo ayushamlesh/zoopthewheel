@@ -15,7 +15,7 @@
       			overflow:inherit;
 			}
   .option>div:hover{background-image: linear-gradient(90deg,#434343,Black,#485461);border-bottom-right-radius: 50px;display:flex;overflow: hidden;width:97%;color:#ffffff;}
-.optiontext{float:right;padding-right:20px;padding-left:140px;}
+.optiontext{float:right;padding-right:20px;padding-left:140px;font-color:#ffffff;}
 
 
 /* all other page css */
