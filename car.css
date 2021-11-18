@@ -18,7 +18,7 @@
   .option>div:hover{background-image: linear-gradient(90deg,#434343,Black,#485461);border-bottom-right-radius: 50px;display:flex;overflow: hidden;width:97%;}
 
   body{  font-size:20px;
-        color:#FFFFFF;}
+        font-color:#FFFFFF;}
 
 .optiontext{float:right;padding-right:20px;padding-left:140px;}
 
