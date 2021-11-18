@@ -4,12 +4,12 @@
 	<title>
 	ZOOP THE WHEEL
 	</title>
-	
+
 <link rel="stylesheet" href="car.css">
 </head>
 
 
-<body>
+<body >
 
 <div>
 <!/* slide show start */>
@@ -27,45 +27,49 @@
     <div class="mySlides fade">
     <img src="SLIDE3.png" style="width:1240px;height:550px;">
     </div>
- 
+
 </div>
-<br>
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
 <!/*slide show end */>
 
 <div>
-<img src="show.png" style="width:1250px;height:550px">
+<img src="show.png" style="width:1248px;height:550px">
 </div>
 
 <div class="option">
 	<div>
-	<button style="hover {background-color: #4CAF50;"><a href="hatchback.html"><img src="HATCHBACK.png" style="width:120px;height:120px"></a></button>
-		<h2> Zoop the wheels on highways that has feather like smooth roads</h2>
+	<button ><a href="hatchback.html"><img src="HATCHBACK.png" style="width:120px;height:120px"></a></button>
+	<div class="optiontext"><h2> Zoop the wheels on highways that has feather like smooth roads</h2></div>
 	</div>
+
+	<br>
+
 	<div>
-	<button style="hover {background-color: #4CAF50;"><a href="sedan.html"><img src="SEDAN.png" style="width:120px;height:120px"></a></button>
-		<h2>zoop the wheels on highways with Corporate comfort</h2>
+	<button><a href="sedan.html"><img src="SEDAN.png" style="width:120px;height:120px"></a></button>
+		<div class="optiontext">	<h2>Zoop the wheels on highways with Corporate comfort</h2></div>
 	</div>
-	<div>
-	<button style="hover {background-color: #4CAF50;"><a href="suv.html"><img src="SUV.png" style="width:120px;height:120px"></a></button>
-		<h2> Zoop the wheels on highway like a boss and fearless on the bad roads</h2>
+
+<br>
+
+<div>
+	<button><a href="suv.html"><img src="SUV.png" style="width:120px;height:120px"></a></button>
+		<div class="optiontext">	<h2> Zoop the wheels on highway like a boss and fearless on the bad roads</h2></div>
 	</div>
-	
 
 </div>
-<br>
+
 <div CLASS="footer">
 <p>This website is for assignment purpose only.</p>
 <b><p>This website is designed by AYUSH AMLESH REG. NO. 12000788</p>
 <P>Student of section KM016,  ROLL NO. : RKM016B79</P></b>
 <H3>ZOOP THE WHEEL</H3>
 </div>
-	
+
 
 	</div>
 <script>
@@ -78,17 +82,17 @@ function showSlides() {
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++)
  {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) 
-      {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) 
+  if (slideIndex > slides.length)
+      {slideIndex = 1}
+  for (i = 0; i < dots.length; i++)
   {
     dots[i].className = dots[i].className.replace(" active", "");
   }
 
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
