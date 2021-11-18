@@ -7,6 +7,9 @@
   position: relative;
   margin:0;
   }
+
+.opt{border-radius: 30px;border: 2px solid black ;text-align: center;color:Black;background-image: linear-gradient(#48546B,#485461);color: white;}
+
 .option>div{width:99%;
 			height:100%;
 			margin:5px;
